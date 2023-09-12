@@ -1,6 +1,10 @@
-SELECT products.product_name  AS products,
-       suppliers.company_name AS company
-FROM products
-         INNER JOIN suppliers ON products.supplier_id = suppliers.supplier_id
-ORDER BY products ASC,
-         company ASC;
+SELECT
+    products.product_name AS product,
+    suppliers.company_name AS company
+FROM
+    products
+        JOIN
+    suppliers ON products.supplier_id = suppliers.supplier_id
+ORDER BY
+    products.product_name ASC,
+    suppliers.company_name ASC;
