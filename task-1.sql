@@ -6,5 +6,5 @@ FROM
         JOIN
     suppliers ON products.supplier_id = suppliers.supplier_id
 ORDER BY
-    products.product_name ASC,
-    suppliers.company_name ASC;
+    product ASC,
+    company ASC;
