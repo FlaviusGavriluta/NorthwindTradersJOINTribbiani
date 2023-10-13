@@ -186,4 +186,5 @@ Save the SQL query to task-10.sql.
 
 ## Background materials
 [All SQL joins in one picture](https://i.stack.imgur.com/4zjxm.png)
+
 [SQL joins](https://www.w3schools.com/sql/sql_join.asp)
